@@ -26,3 +26,6 @@
 - 创建+切换分支:git branch -b branch_name
 - 合并某分支到当前分支:git merge branch_name
 - 删除分支:git branch -d branch_name
+
+- 当git无法自动合并分支时，就必须先解决冲突。然后再提交合并。
+- 用git log --graph 命令可以看到分支合并图
