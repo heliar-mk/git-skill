@@ -53,3 +53,14 @@
 - -s tagname -m“balabala”可以用PGP签名标签
 - 命令git tag可以查看所有标签
 - git show tagname可以查看标签详细信息
+
+- git push origin tagname 可以推送一个本地标签
+- git push origin --tag可以推送本地所有未推送的标签
+- git tag -d tagname可以删除一个本地标签
+- git push origin ：refs/tags/tagname 可以删除一个远程标签
+
+- 在github上可以任意fork开源仓库
+- 自己拥有fork后仓库的读写权限
+- 可以推送pull request给官方仓库来贡献代码
+
+- 
