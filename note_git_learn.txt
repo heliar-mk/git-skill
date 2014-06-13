@@ -63,4 +63,7 @@
 - 自己拥有fork后仓库的读写权限
 - 可以推送pull request给官方仓库来贡献代码
 
-- 
+- 忽略特殊文件，需要编写.gitignore
+- .gitignore要放到版本库里，并且可以对.gitignore做版本管理
+
+- 给git 配置好别名，就可以在输入命令时候偷个懒。命令是 git config --  global alias.你要的别名 原来的名称
