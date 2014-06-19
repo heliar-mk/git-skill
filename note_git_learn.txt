@@ -4,6 +4,7 @@
 	2. 用git commit 命令完成提交
 - 要随时掌握工作区的状态，使用git status 命令
 - 如果git status 告诉你文件被修改过，可以使用git diff 查看修改内容
+- 修正提交，如果你提交时候注释写错了，可以用git commit --amend -m“新的注释“来进行修正
 
 - HEAD 指向的版本就是当前版本，因此git允许我们在版本的历史之间穿梭，使用命令 git reset --hard commit_id
 - 穿梭前，可以用git Log 查看提交历史，以确定需要退回哪个版本
@@ -69,3 +70,4 @@
 - .gitignore要放到版本库里，并且可以对.gitignore做版本管理
 
 - 给git 配置好别名，就可以在输入命令时候偷个懒。命令是 git config --  global alias.你要的别名 原来的名称
+- 在你的$HOME目录下可以找到一个叫做.gitconfig的文件，可以修改已经配置的别名
