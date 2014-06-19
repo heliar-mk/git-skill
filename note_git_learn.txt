@@ -14,9 +14,11 @@
 - 已经提交了不合适的修改到版本库时，想要撤销本次提交，用版本回退的方法，前提是还没推送到远程的仓库
 - 命令git rm 用于删除一个文件，如果一个文件已经被提交到版本库，那么永远不用担心误删，但是只能恢复到最近一次提交后你修改的内容
 
-- 要关联一个远程库，使用命令 git remote add origin git@server-name:path/repo-name.git
+- 要关联一个远程库，使用命令 git remote add origin git@server-name:path/repo-name.git,命令格式是：git remote add [shortname] [url]
 - 关联后，使用命令git push origin master 第一次推送 master 分支的所有内容
-- 此后每次本地提交后，只要有必要，就可以使用命令git push origin master推送最新修改
+- 此后每次本地提交后，只要有必要，就可以使用命令git push origin master推送最新修改，实际格式是git push [remote-name] [branch-name]
+- origin 为这个分支的名字，如果要修改某个远程仓库的名字，可以用git remote rename oldname newname这个命令
+- 要删除对应的远程仓库，可以运行git remote rm repo_name这个命令
 
 - 从远程库克隆，首先需要知道仓库的地址，然后使用git clone 命令克隆
 - git支持多种协议，包括https，但通过ssh支持的原生git协议速度最快
