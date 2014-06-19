@@ -28,7 +28,7 @@
 - 查看分支:git branch
 - 创建分支:git branch branch_name
 - 切换分支:git checkout branch_name
-- 创建+切换分支:git branch -b branch_name
+- 创建+切换分支:git chockout -b branch_name
 - 合并某分支到当前分支:git merge branch_name
 - 删除分支:git branch -d branch_name
 
